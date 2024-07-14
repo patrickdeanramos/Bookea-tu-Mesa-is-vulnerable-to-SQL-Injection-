@@ -6,6 +6,7 @@ Steps to Reproduce:
 1. Go to http://localhost/Bookea-tu-Mesa/ReservationTable.php.
 2. In the search field, type the following SQL injection payload: ''"+UNION+SELECT+VERSION(),NULL,NULL,NULL,NULL,NULL,NULL,NULL#'.
 3. The query will show the database version, demonstrating the SQL injection vulnerability.
+   ![alt text](https://github.com/patrickdeanramos/Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection-/blob/main/SQli%20Bookea-tu-Mesa.png?raw=True)
 
 <B>Vulnerable Code:</B>
 The vulnerability exists in insert_reservation.php at the following lines:
