@@ -1,4 +1,4 @@
-# Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection-
+# CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection-
 Bookea-tu-Mesa is susceptible to a SQL Injection (SQLi) vulnerability. This flaw allows attackers to inject malicious SQL commands that can manipulate the database, potentially compromising the application's data integrity and security.
 
 <B>Steps to Reproduce:</B>
@@ -30,4 +30,6 @@ Patrick Dean Ramos<br>
 Nathu Nandwani<br>
 Junnair Manla<br>
 Kevin Rosales<br>
-
+Steve Nyan<br>
+Shanavas Shakeer<br>
+Lani Lambert<br>
